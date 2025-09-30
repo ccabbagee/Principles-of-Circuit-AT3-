@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="1.2.9018.0"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="120">
+    <identity>
+      <id>c1a49cee-a9f4-47c9-b4e7-41597861b4d8</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <mixedNumbers>false</mixedNumbers>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>0</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true" hideElementsHighlightings="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="1.2.9018.0" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.9018.0" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="18" top="9" width="190" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_Re_120</e>
+          <e type="operand">1.9945772</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="18" top="36" width="190" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_in_120</e>
+          <e type="operand">1.9999504</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="18" top="63" width="182" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_ID_120</e>
+          <e type="operand">1.999845</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="18" top="108" width="276" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_Re_120</e>
+          <e type="operand">V_NI_Re_120</e>
+          <e type="operand">V_NI_in_120</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9973</e>
+        </result>
+      </math>
+    </region>
+    <region left="18" top="162" width="276" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_120</e>
+          <e type="operand">V_NI_ID_120</e>
+          <e type="operand">V_NI_in_120</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9999</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="234" width="385" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_RE_120</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_Re_120</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0234</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="279" width="385" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_120</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_ID_120</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0005</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="684" width="198" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_Re_2400</e>
+          <e type="operand">1.9606117</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="711" width="198" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_in_2400</e>
+          <e type="operand">1.9999906</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="738" width="198" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_ID_2400</e>
+          <e type="operand">1.9661193</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="783" width="292" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_Re_2400</e>
+          <e type="operand">V_NI_Re_2400</e>
+          <e type="operand">V_NI_in_2400</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9803</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="837" width="292" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_2400</e>
+          <e type="operand">V_NI_ID_2400</e>
+          <e type="operand">V_NI_in_2400</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.9831</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="909" width="401" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_RE_2400</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_Re_2400</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.1727</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="936" width="401" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_2400</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_ID_2400</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.1484</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="1314" width="274" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_Re_240000</e>
+          <e type="operand">49.387604</e>
+          <e type="operand">10</e>
+          <e type="operand">3</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="1350" width="214" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_in_240000</e>
+          <e type="operand">1.9999111</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="1377" width="274" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">V_NI_ID_240000</e>
+          <e type="operand">43.899118</e>
+          <e type="operand">10</e>
+          <e type="operand">3</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="9" top="1422" width="337" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_Re_240000</e>
+          <e type="operand">V_NI_Re_240000</e>
+          <e type="operand">V_NI_in_240000</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0247</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="9" top="1476" width="329" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_240000</e>
+          <e type="operand">V_NI_ID_240000</e>
+          <e type="operand">V_NI_in_240000</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.022</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1548" width="441" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_RE_240000</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_Re_240000</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">32.1479</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="1593" width="441" height="34" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">K_NI_ID_240000</e>
+          <e type="operand">20</e>
+          <e type="operand">K_NI_ID_240000</e>
+          <e type="function" args="1">abs</e>
+          <e type="bracket">(</e>
+          <e type="operand">10</e>
+          <e type="function" args="2">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">33.1711</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
